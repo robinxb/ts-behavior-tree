@@ -1,0 +1,22 @@
+language: node_js
+cache:
+  yarn: true
+  directories:
+    - ~/.npm
+notifications:
+  email: false
+node_js:
+  - '10'
+  - '11'
+  - '8'
+
+script: yarn run test:prod && yarn run report-coverage
+
+jobs:
+  include:
+    - stage: deploy
+      if: branch = master
+      script:
+        - yarn build
+        - yarn semantic-release
+        - yarn deploy-docs
