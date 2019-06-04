@@ -56,6 +56,18 @@ You can get release versions of these from [releases page](https://github.com/ro
 
 You can find examples from [test/BehaviorTreeBuilder.test.ts](https://github.com/robinxb/ts-behavior-tree/blob/master/test/BehaviorTreeBuilder.test.ts).
 
+Here is a simple usage
+
+```javascript
+import { BehaviorTreeBuilder, BehaviorTreeStatus, TimeData } from 'ts-behavior-tree'
+const node = new BehaviorTreeBuilder()
+.Sequence('aa')
+.Do('aa', () => BehaviorTreeStatus.Failure)
+.End()
+.Build()
+console.log(node.Tick(new TimeData()) === BehaviorTreeStatus.Failure)
+```
+
 
 ## Development
 
