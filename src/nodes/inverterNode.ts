@@ -2,7 +2,7 @@ import { TimeData } from '../timeData'
 import { BehaviorTreeStatus } from '../behaviorTreeStatus'
 import { IBehaviorTreeNode } from '../iBehaviorTreeNode'
 import { IParentBehaviorTreeNode } from '../iParentBehaviorTreeNode'
-import { isUndefined } from 'lodash'
+import isUndefined from 'lodash.isundefined'
 import { ErrInvNodeMustHaveChild, ErrInvNodeMoreThanOneChild } from '../errors'
 
 export class InverterNode implements IParentBehaviorTreeNode {

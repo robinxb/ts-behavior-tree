@@ -7,7 +7,7 @@ import { IParentBehaviorTreeNode } from './iParentBehaviorTreeNode'
 import { ParallelNode } from './nodes/parallelNode'
 import { InverterNode } from './nodes/inverterNode'
 import { SelectorNode } from './nodes/selectorNode'
-import { isUndefined } from 'lodash'
+import isUndefined from 'lodash.isundefined'
 import { SequenceNode } from './nodes/sequenceNode'
 import { ErrUnnestedTree, ErrZeroNodes, ErrorSpliceUnnested } from './errors'
 
