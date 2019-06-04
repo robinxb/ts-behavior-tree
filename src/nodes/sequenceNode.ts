@@ -1,7 +1,7 @@
 import { TimeData } from '../timeData'
 import { BehaviorTreeStatus } from '../behaviorTreeStatus'
 import { IBehaviorTreeNode } from '../iBehaviorTreeNode'
-import { LinkedList } from 'typescript-collections'
+import LinkedList from 'typescript-collections/dist/lib/LinkedList'
 import { IParentBehaviorTreeNode } from '../iParentBehaviorTreeNode'
 
 /**

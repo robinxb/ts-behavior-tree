@@ -3,7 +3,7 @@ import { BehaviorTreeStatus } from '../behaviorTreeStatus'
 import { IBehaviorTreeNode } from '../iBehaviorTreeNode'
 import { IParentBehaviorTreeNode } from '../iParentBehaviorTreeNode'
 import * as _ from 'lodash'
-import { LinkedList } from 'typescript-collections'
+import LinkedList from 'typescript-collections/dist/lib/LinkedList'
 
 export class SelectorNode implements IParentBehaviorTreeNode {
   /**

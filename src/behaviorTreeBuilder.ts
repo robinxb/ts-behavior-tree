@@ -1,4 +1,4 @@
-import { Stack } from 'typescript-collections'
+import Stack from 'typescript-collections/dist/lib/Stack'
 import { TimeData } from './timeData'
 import { BehaviorTreeStatus } from './behaviorTreeStatus'
 import { IBehaviorTreeNode } from './iBehaviorTreeNode'
