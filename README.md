@@ -2,6 +2,8 @@
 
 A javascript/typescript behaviour tree library implementation of [Fluent-Behaviour-Tree](https://github.com/codecapers/Fluent-Behaviour-Tree)
 
+[View Documented](https://robinxb.github.io/ts-behavior-tree)
+
 [![Travis](https://img.shields.io/travis/robinxb/ts-behavior-tree.svg)](https://travis-ci.org/robinxb/ts-behavior-tree)
 [![Coveralls](https://img.shields.io/coveralls/robinxb/ts-behavior-tree.svg)](https://coveralls.io/github/robinxb/ts-behavior-tree)
 [![npm version](https://badge.fury.io/js/ts-behavior-tree.svg)](https://badge.fury.io/js/ts-behavior-tree)
@@ -31,6 +33,7 @@ So I rewrite based on the origin C# implement. 🎉
 * Pure ES5
 * Tiny (~5KB Minified)
 * Full [Documented](https://robinxb.github.io/ts-behavior-tree)
+* Zero dependency
 
 ## Installation
 
