@@ -11,7 +11,7 @@
   ],
   "main": "dist/ts-behavior-tree.umd.js",
   "module": "dist/ts-behavior-tree.es5.js",
-  "typings": "dist/types/ts-behavior-tree.d.ts",
+  "typings": "dist/types/index.d.ts",
   "files": [
     "dist"
   ],
