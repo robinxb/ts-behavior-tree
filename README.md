@@ -57,7 +57,7 @@ You can get release versions of these from [releases page](https://github.com/ro
 
 ## Usage
 
-You can find examples from [test/BehaviorTreeBuilder.test.ts](https://github.com/robinxb/ts-behavior-tree/blob/master/test/BehaviorTreeBuilder.test.ts).
+You can find examples from [test/BehaviorTreeBuilder.test.ts](https://github.com/robinxb/ts-behavior-tree/blob/master/test/behaviorTreeBuilder.test.ts).
 
 Here is a simple usage
 
